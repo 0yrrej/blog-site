@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 100vh;
+}
+.navbar {
+    grid-columns: span 2;
+}
+.left-half {
+    background-image: url(https://timedotcom.files.wordpress.com/2014/05/185652491.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.right-half {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: #EBF3F6;
+}
+.right-half h2 {
+    font-size: 50px;
+    font-family: Consolas;
+    margin-bottom: 0;
+}
